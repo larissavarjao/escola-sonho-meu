@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+* {
+    font-family: Lato, sans-serif;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.home {
+    background: blue;
+}
+
+.what {
+    background: yellow;
+}
+
+.how {
+    background: white;
+}
+
+.extra {
+    background: blue;
+}
