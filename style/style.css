@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    width: 100vw;
+    height: 80vh;
+}
+
+.home {
+    width: 100vw;
+    height: 95vh;
+}
+
+.home-background {
+    width: 100%;
+    height: 100%;
+    background: url("../imgs/schoolcover.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item{
+    height: 95vh;
+} 
+.carousel-item img{
+    height: 95vh;
+    object-fit: cover;
+}
+
+.home .home-background h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: #23CDFD !important;
+    font-weight: 500;
+}
+
+.twitter {
+    background: #f8f9fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.twitter-embbed {
+    width: 30%;
+    height: 80%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.extra {
+    background: #23CDFD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block-extra {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.block-extra h2 {
+    font-size: 32px;
+}
+
+.block-extra p {
+    font-size: 14px;
+}
+
+section.what img {
+
+    margin-top : 35px;
+    border-radius: 20px; 
+    border: 2px solid white;
+}
+
+section.what h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+section.extra iframe {
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+
+.history {
+    background: #f8f9fa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.history img {
+    height: 50%;
+    border-radius: 5px;
+    width: 40%;
+    object-fit: cover;
+}
+
+.how-history {
+    width: 50%;
+    padding: 24px;
+    text-align: center;
+}
+
+.about {
+    background: #f8f9fa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about p {
+    font-size: 14px;
+}
+
+.about img {
+    height: 60%;
+    border-radius: 5px;
+    width: 40%;
+    object-fit: cover;
+}
+
+.about-history {
+    width: 50%;
+    padding: 24px;
+    text-align: center;
+}
+
+.contact {
+    width: 100vw;
+    height: 100vh;
+    background: #23CDFD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background: #fff;
+    width: 80vw;
+    padding: 32px;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 767px) {
+    .history {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
