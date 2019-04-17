@@ -7,3 +7,11 @@ $(function () {
         window.location = 'mailto:' + "escolasonhomeu@gmail.com" + '?subject=' + "Informações Escola Meu Sonho" + '&body=' + texto;
     });
 });
+
+$('#up').each(function () {
+    $(this).click(function () {
+        $(window.opera ? 'html' : 'html, body').animate({
+            scrollTop: 0
+        }, 'slow');
+    });
+});
