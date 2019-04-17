@@ -13,6 +13,16 @@ section {
     height: 80vh;
 }
 
+.up {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+    z-index: 99999;
+}
+
 .home {
     width: 100vw;
     height: 95vh;
